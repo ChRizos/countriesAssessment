@@ -1,13 +1,13 @@
 package com.sw.assessment.entities;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.util.Date;
 
-@AllArgsConstructor
 public class Country {
+
+    public Country() {}
 
     @Setter
     @Getter
