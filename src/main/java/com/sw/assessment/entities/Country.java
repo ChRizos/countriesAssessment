@@ -1,13 +1,13 @@
 package com.sw.assessment.entities;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.Date;
 
+@NoArgsConstructor
 public class Country {
-
-    public Country() {}
 
     @Setter
     @Getter
@@ -23,18 +23,18 @@ public class Country {
 
     @Setter
     @Getter
-    Date nationalDay;
+    Date national_day;
 
     @Setter
     @Getter
-    String countryCode2;
+    String country_code2;
 
     @Setter
     @Getter
-    String countryCode3;
+    String country_code3;
 
     @Setter
     @Getter
-    int regionId;
+    int region_id;
 
 }

@@ -40,9 +40,9 @@ public class CountryDto {
         return CountryDto.builder()
                 .name(country.getName())
                 .area(country.getArea())
-                .nationalDay(country.getNationalDay())
-                .countryCode2(country.getCountryCode2())
-                .countryCode3(country.getCountryCode3())
+                .nationalDay(country.getNational_day())
+                .countryCode2(country.getCountry_code2())
+                .countryCode3(country.getCountry_code3())
                 .build();
     }
 }
