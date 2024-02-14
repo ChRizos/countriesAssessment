@@ -2,12 +2,8 @@ package com.sw.assessment.mappers;
 
 import com.sw.assessment.entities.Country;
 import org.apache.ibatis.annotations.*;
-import org.apache.ibatis.type.MappedTypes;
-
-import java.util.ArrayList;
 import java.util.List;
 
-//@MappedTypes(Country.class)
 @Mapper
 public interface CountryMapper {
     @Select("SELECT * from countries where name = #{name}")
