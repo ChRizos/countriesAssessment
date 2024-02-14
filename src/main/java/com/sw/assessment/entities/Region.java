@@ -1,31 +1,22 @@
 package com.sw.assessment.entities;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@NoArgsConstructor
 public class Region {
+
+    @Getter
+    @Setter
     int id;
+
+    @Getter
+    @Setter
     String name;
-    int continentId;
 
-    public int getId() {
-        return id;
-    }
+    @Getter
+    @Setter
+    int continent_id;
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getContinentId() {
-        return continentId;
-    }
-
-    public void setContinentId(int continentId) {
-        this.continentId = continentId;
-    }
 }
